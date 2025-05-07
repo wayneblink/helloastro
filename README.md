@@ -1,5 +1,7 @@
 ## Hello Astro
-![wat is happening](./public/dan.png)
+[ciao netlify](https://ciaoastro.netlify.app/)
+
+![wat is happening](./src/images/dan.png)
 
 
 ## 🚀 Project Structure

@@ -1,10 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Greeting from "../components/Greeting";
 import { Image } from 'astro:assets';
 import localDanImage from '../images/dan.png';
 const pageTitle = "Home Page";
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h2>My awesome blog subtitle</h2>
+  <Greeting client:load messages={["Hi", "Hello", "Howdy", "Hey there", "Ciao"]} />
+  <br />
   <Image src={localDanImage} alt="what is happening" />
 </BaseLayout>

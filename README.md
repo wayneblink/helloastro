@@ -3,6 +3,8 @@
 
 ![wat is happening](./src/images/dan.png)
 
+![react](./src/images/react.jpg)
+
 
 ## 🚀 Project Structure
 
